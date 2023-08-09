@@ -54,6 +54,7 @@ const appStyles={
   backgroundImage:`url('/img/${weather?.weather[0].icon}.jpeg')`};
   
 
+  
 console.log(weather)
 
   return (
@@ -64,9 +65,11 @@ console.log(weather)
           weather={weather}
           temperature={temperature}
         />
-      
+   
+        
       : <Loading/>
      }
+
 
     </div>
   )

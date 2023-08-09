@@ -46,7 +46,6 @@ const handleChangeTemperature=()=>{
                     
                     <ul>
                             
-
                             <li><img src="/public/icons/weather-2_icon-icons.com_67742.svg" alt="" />Clouds: <span>{weather?.clouds.all} %</span></li>
                             <li><img src="/public/icons/mdi_weather-windy.svg" alt="" />Wind speed: <span>{weather?.wind.speed} m/s </span></li>
                             {/* <li><span>Direc./viento: {weather?.wind.deg}°</span></li> */}
@@ -54,7 +53,10 @@ const handleChangeTemperature=()=>{
                             <li><img src="/public/icons/uil_raindrops-alt.svg" alt="" />Humidity:<span>{weather?.main.humidity} %</span></li>
                             <li><img src="/public/icons/tabler_arrow-wave-right-down.svg" alt="" />Pressure: <span>{weather?.main.pressure} hPa </span></li>
                             <li><span>------------</span></li>
+
                             <li>Visibility: <span>{weather?.visibility} mts.</span></li>
+                            <li>Visibility: <span>{weather?.visibility} mts.</span></li>
+                             
                              
                     </ul>
                 
